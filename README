@@ -1,3 +1,16 @@
 campfire-pattern-alert
 ----------------------
 Command line tool, that redirects (for a given pattern) messages from campfire to Jabber or standard output
+
+Installation
+------------
+Just configure properly your jabber/campfire's connection information in jabber-configuration.rb and campfire-confirguration.rb respectivly.
+
+Usage
+-----
+
+Just run: ./campfire-listener.sh pattern output
+
+Where 'pattern' could be a regular expression and 'output' stands for STDOUT (if output parameter is not set, this is considered the default value) or JABBER.
+
+More info: http://railshotspot.blogspot.com/2009/06/campfire-pattern-alert.html
