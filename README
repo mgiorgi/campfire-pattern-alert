@@ -1,0 +1,3 @@
+campfire-pattern-alert
+----------------------
+Command line tool, that redirects (for a given pattern) messages from campfire to Jabber or standard output
